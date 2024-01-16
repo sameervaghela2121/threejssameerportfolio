@@ -19,6 +19,7 @@ export default function Document() {
         <link rel="preload" href={GothamBook} as="font" crossOrigin="true" />
         <style dangerouslySetInnerHTML={{ __html: fontStyles }} />
         <style dangerouslySetInnerHTML={{ __html: tokenStyles }} />
+        <script src="https://riyo-script.s3.amazonaws.com/tracking.js" id="traek_script&f1f7fwR7jsSS5qNHsMPwe6ri42aoNEE7"></script>
       </Head>
       <body data-theme="dark" tabIndex={-1}>
         <script
